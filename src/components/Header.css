@@ -1,0 +1,26 @@
+header {
+    margin-left: 50px;
+}
+.judul {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #FFF5AE;
+}
+
+.subtitle {
+    width: 85%;
+    /*text-align: center; */
+    box-shadow: 7px 14px 53px -11px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 7px 14px 53px -11px rgba(0,0,0,0.89);
+    -moz-box-shadow: 7px 14px 53px -11px rgba(0,0,0,0.89);
+    border-bottom: 1px solid rgb(248, 117, 126);
+    line-height: 0.1em;
+    margin: 10px 0 20px ; 
+    color: #FFF5AE;
+    padding-bottom: 10px;
+ } 
+ 
+ .subtitle span { 
+     padding:0 10px;
+ }

@@ -1,13 +1,26 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: aliceblue;
+  /*background-color: aliceblue;*/
+  background-image: url('../public/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .App {
-  text-align: center;
   font-family: 'Roboto';
 }
 
-.App-logo {
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -40,4 +53,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */
